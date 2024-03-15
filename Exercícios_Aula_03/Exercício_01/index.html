@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 01</title>
+</head>
+
+<body>
+    <!-- Formulário -->
+    <h2>Dados do paciente</h2>
+    <form name="dadosPaciente" method="post" action="">
+        Nome do paciente: <input type="text" id="nome" name="nome" size="25" required /> <br>
+        Registro hospitalar: <input type="registro" id="registro" name="registro" size="25  " /> <br>
+        Data de inclusão: <input type="date" id="dataInicial" name="dataInicial" size="40" /> <br>
+        Data de nascimento: <input type="date" id="dataNacimento" name="nascimento" size="40" /> <br>
+        E-mail: <input type="email" id="email" name="e-mail" size="30"> <br>
+
+        Gênero: <br>
+        <input type="radio" id="masc" name="sexo" value="M" /> masculino <br>
+        <input type="radio" id="fem" name="sexo" value="F" /> feminino <br>
+
+        Raça declarada:
+        <select name="raca">
+            <option value=""></option>
+            <option value="Branca">Branca </option>
+            <option value="Negra">Negra</option>
+            <option value="Parda">Parda</option>
+            <option value="Amarela">Amarela</option>
+            <option value="Indigena">Indígena</option>
+            <option value="Desconhecida">Desconhecida</option>
+        </select>
+
+        Como ficou sabendo do estudo: <br>
+        <input type="checkbox" id="" name="prefs" value="" /> Convidado <br>
+        <input type="checkbox" id="" name="prefs" value="" /> Internet <br>
+        <input type="checkbox" id="" name="prefs" value="" /> Amigos <br>
+        <input type="checkbox" id="" name="prefs" value="" /> Familiares <br>
+        <input type="checkbox" id="" name="prefs" value="" /> Outros <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
